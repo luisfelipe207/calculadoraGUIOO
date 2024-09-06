@@ -34,7 +34,7 @@ Este repositório contém o código fonte de uma calculadora simples com interfa
 
 ## Principais Decisões de Design
 
-- **Estrutura do Código**: O código está organizado em um único arquivo Python `calculadoraGUIOO.py` dentro da pasta `src` para simplicidade.
+- **Estrutura do Código**: O código está organizado em um único arquivo Python `calculadoraGUIOO.py` dentro da pasta `calculadoraGUIOO` para simplicidade.
 - **Interface Gráfica**: Utiliza o Tkinter para criar uma interface gráfica intuitiva para uma calculadora básica.
 - **Botões e Funcionalidade**: Cada botão é criado com a função `create_button`, e o comportamento é gerenciado pela função `on_button_click`.
 - **Tratamento de Erros**: A expressão é avaliada com `eval`, e qualquer erro de cálculo resulta em "Erro" na tela da calculadora.
